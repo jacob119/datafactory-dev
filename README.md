@@ -1,3 +1,6 @@
+# env
+jdk17, spring boot:3.0.5, kafka-client:3.3.2
+
 # start zookeeper & kafka
 ./bin/zookeeper-server-start.sh ./config/zookeeper.properties &&
 ./bin/kafka-server-start.sh ./config/server.properties
