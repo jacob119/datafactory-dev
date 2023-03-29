@@ -1,5 +1,5 @@
 # start zookeeper & kafka
-./bin/zookeeper-server-start.sh ./config/zookeeper.properties \n
+./bin/zookeeper-server-start.sh ./config/zookeeper.properties &&
 ./bin/kafka-server-start.sh ./config/server.properties
 
 # message format
